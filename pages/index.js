@@ -58,7 +58,7 @@ export default function Home() {
         <section>
             <div>
               <h3 className='text-3xl py-1'>Services I offer</h3>
-              <p className='text-md py-2 leading-8 text-grey-800'>Since the beginning of my jounrey as a freelance designer and developer, I've done remote work for <span className=' text-teal-500'>Agro businesses, schools, startups</span> and collaborated with talented people to create digital products for a better user experience.</p>
+              <p className='text-md py-2 leading-8 text-grey-800'>Since the beginning of my jounrey as a freelance designer and developer, I&apos;ve done remote work for <span className=' text-teal-500'>Agro businesses, schools, startups</span> and collaborated with talented people to create digital products for a better user experience.</p>
             </div>
             <div className='lg:flex gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
