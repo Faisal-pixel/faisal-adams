@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`bg-white px-10 md:px-20 lg:px-40 ${darkMode && "main bg-primary"}`}>
+      <main className={`bg-white px-5 center md:px-20 lg:px-40 ${darkMode && "main bg-primary"}`}>
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className=' text-xl font-burtons'>Code Crushed</h1>
@@ -36,19 +36,19 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-orange-400'>Faisal Adams</h2>
+          <div className='text-center sm:p-10'>
+            <h2 className='text-4xl py-2 text-teal-600 font-medium md:text-6xl dark:text-orange-400'>Faisal Adams</h2>
             <h3 className=' text-2xl py-2 md:text-3xl'>Developer and designer.</h3>
             <p className=' text-md py-5 leading-7 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>I am a problem solver with over three years of coding experience building, and creating amazing web experiences for agro businesses and schools. I am passionate about web technologies and developer communities. I am also really interested in ML and AI aspect so i began my self study on python. Time not spent infront of a computer is spent binging 24 hours, yes the well known Jack bauer, or defending the honor of amala as the best swallow in Africa( I hope Bami forgives me for this, but we on the same team lol).</p>
           </div>
 
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+          <div className='text-5xl flex justify-center sm:gap-16 py-3 text-gray-600'>
               <a href='https://twitter.com/FaisalAdams15'><AiFillTwitterCircle className=' cursor-pointer'/></a>
               <a href='https://www.linkedin.com/in/faisal-adams-921aa5196/'><AiFillLinkedin className=' cursor-pointer'/></a>
               <a href='mailto:adamsfaisal2003@gmail.com'><AiFillMail className=' cursor-pointer'/></a>
               <a href='https://github.com/Faisal-pixel'><AiFillGithub className=' cursor-pointer'/></a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative container mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 sm:w-80 sm:h-80 mt-20 mb-20 overflow-hidden'>
               <Image src={faisal} layout="fill" objectFit='cover'/>
           </div>
         </section>
@@ -74,18 +74,18 @@ export default function Home() {
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
                 <p className='py-2'>Developing nice and lovely designs suited for your needs following code design theory.</p>
                 <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-                <div className='flex flex-wrap gap-y-2'>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Html</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>CSS</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>JavasScript</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Bootstrap</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>jQuery</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Scss</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Tailwindcss</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Nodejs</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Redux</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Nextjs</p>
-                  <p className=' text-gray-800 py-1 px-2 mr-2 border-solid border-2 rounded-md dark:text-white'>Typescript</p>
+                <div className='flex flex-wrap gap-1 text-sm'>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Html</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>CSS</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>JavasScript</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Bootstrap</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>jQuery</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Scss</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Tailwindcss</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Nodejs</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Redux</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Nextjs</p>
+                  <p className=' text-gray-800 py-0.5 px-1  border-solid border-2 rounded-md dark:text-white'>Typescript</p>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, like devloping user end interface of websites, teaching programming in schools and freelancing</p>
           </div>
 
-          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='flex flex-col center gap-10 py-10 lg:flex-row lg:flex-wrap'>
 
             <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
