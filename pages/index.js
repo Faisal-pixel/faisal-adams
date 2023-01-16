@@ -211,6 +211,26 @@ export default function Home() {
               </div>
 
             </div>
+
+            <div className='basis-1/4 max-w-sm py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+
+              <div>
+                <div className=' flex row justify-between'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder text-3xl text-orange" data-v-3857230a=""><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                  <a href='https://faisal-pixel.github.io/Balmid3/' target="blank" className='transition ease-in-out hover:scale-150 hover:text-orange-400 cursor-pointer'><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+                </div>
+                <h2 className=' text-teal-500 font-semibold text-2xl mt-5 mb-2 font-burtons dark:text-white'>Photon</h2>
+                <p className=' text-gray-800 dark:text-zinc-300'>I worked on a photo generator site. It makes use of pexels api to generate photos based on input from the search box. Users can also generate more pictures using the generate more button.</p>
+              </div>
+              <div className=' mt-3 flex row flex-wrap gap-2'>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Html</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>CSS</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>API</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>VanillaJs</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Async</span>
+              </div>
+
+            </div>
             
           </div>
         </section>
