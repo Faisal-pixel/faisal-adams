@@ -43,7 +43,7 @@ export default function Home() {
           </div>
 
           <div className='text-5xl flex justify-center sm:gap-16 py-3 text-gray-600'>
-              <a href='https://twitter.com/FaisalAdams15'><AiFillTwitterCircle className=' cursor-pointer'/></a>
+              <a href='https://twitter.com/code_crushed'><AiFillTwitterCircle className=' cursor-pointer'/></a>
               <a href='https://www.linkedin.com/in/faisal-adams-921aa5196/'><AiFillLinkedin className=' cursor-pointer'/></a>
               <a href='mailto:adamsfaisal2003@gmail.com'><AiFillMail className=' cursor-pointer'/></a>
               <a href='https://github.com/Faisal-pixel'><AiFillGithub className=' cursor-pointer'/></a>
