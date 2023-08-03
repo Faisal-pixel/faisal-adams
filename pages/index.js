@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`bg-white px-5 center md:px-20 lg:px-40 ${darkMode && "main bg-primary"}`}>
+      <main className={`bg-white px-5 center md:px-20 lg:px-30 ${darkMode && "main bg-primary"}`}>
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className=' text-xl font-burtons'>Code Crushed</h1>
@@ -92,15 +92,15 @@ export default function Home() {
         </section>
 
 
-        <section>
+        <section className='flex flex-col'>
           <div>
             <h3 className='text-3xl py-1 dark:text-orange-400'>Portfolio</h3>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, like devloping user end interface of websites, teaching programming in schools and freelancing</p>
           </div>
 
-          <div className='flex flex-col center gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='flex flex-col justify-center gap-10 py-10 lg:flex-row lg:flex-wrap'>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -120,7 +120,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -138,7 +138,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -157,7 +157,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -175,7 +175,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -193,7 +193,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -212,7 +212,7 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 max-w-sm py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
@@ -232,14 +232,14 @@ export default function Home() {
 
             </div>
 
-            <div className='basis-1/4 max-w-sm py-8 px-7 flex-1 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
 
               <div>
                 <div className=' flex row justify-between'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder text-3xl text-orange" data-v-3857230a=""><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                   <a href='https://faisal-react-music-player.netlify.app/' target="blank" className='transition ease-in-out hover:scale-150 hover:text-orange-400 cursor-pointer'><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
                 </div>
-                <h2 className=' text-teal-500 font-semibold text-2xl mt-5 mb-2 font-burtons dark:text-white'>Study Musicr</h2>
+                <h2 className=' text-teal-500 font-semibold text-2xl mt-5 mb-2 font-burtons dark:text-white'>Study Music</h2>
                 <p className=' text-gray-800 dark:text-zinc-300'>Created a Music player using react.</p>
               </div>
               <div className=' mt-3 flex row flex-wrap gap-2'>
@@ -248,6 +248,25 @@ export default function Home() {
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>VanilaJs</span>
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>React</span>
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>SASS</span>
+              </div>
+            </div>
+
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+
+              <div>
+                <div className=' flex row justify-between'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder text-3xl text-orange" data-v-3857230a=""><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                  <a href='https://manager-challenge.netlify.app' target="blank" className='transition ease-in-out hover:scale-150 hover:text-orange-400 cursor-pointer'><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+                </div>
+                <h2 className=' text-teal-500 font-semibold text-2xl mt-5 mb-2 font-burtons dark:text-white'>Manager</h2>
+                <p className=' text-gray-800 dark:text-zinc-300'>Created a landing page called manager. It is a challenge from frontend mentor. I created this to perfect my tailwind skill. It is very responsive. Adjusts to large screen, medium screens and mobile screens.</p>
+              </div>
+              <div className=' mt-3 flex row flex-wrap gap-2'>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Html</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>CSS</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>VanilaJs</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>React</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Tailwind</span>
               </div>
 
             </div>
