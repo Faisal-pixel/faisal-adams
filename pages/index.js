@@ -57,7 +57,7 @@ export default function Home() {
 
         <section>
             <div>
-              <h3 className='text-3xl py-1'>Services I offer</h3>
+              <h3 className='text-3xl font-bold py-1'>Services I offer</h3>
               <p className='text-md py-2 leading-8 text-grey-800'>Since the beginning of my jounrey as a freelance designer and developer, I&apos;ve done remote work for <span className=' text-teal-500'>Agro businesses, schools, startups</span> and collaborated with talented people to create digital products for a better user experience.</p>
             </div>
             <div className='lg:flex gap-10'>
@@ -94,7 +94,7 @@ export default function Home() {
 
         <section className='flex flex-col'>
           <div>
-            <h3 className='text-3xl py-1 dark:text-orange-400'>Portfolio</h3>
+            <h3 className='text-3xl font-bold py-1 dark:text-orange-400'>Portfolio</h3>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, like devloping user end interface of websites, teaching programming in schools and freelancing</p>
           </div>
 
@@ -116,6 +116,27 @@ export default function Home() {
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Html</span>
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Styled components</span>
                 <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Sass</span>
+              </div>
+
+            </div>
+
+            <div className='basis-1/3 md:max-w-sm py-8 px-7 rounded-md bg-zinc-50 dark:bg-badge shadow-sm box-border'>
+
+              <div>
+                <div className=' flex row justify-between'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder text-3xl text-orange" data-v-3857230a=""><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                  <a href='https://share-prompts-zq8p.vercel.app/' target="blank" className='transition ease-in-out hover:scale-150 hover:text-orange-400 cursor-pointer'><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+                </div>
+                <h2 className=' text-teal-500 font-semibold text-2xl mt-5 mb-2 font-burtons dark:text-white'>Promptopia</h2>
+                <p className=' text-gray-800 dark:text-zinc-300'>Promptopia is an innovative platform designed to empower users to create, share, and discover AI-generated prompts effortlessly. The platform provides a seamless experience for users to sign in securely and create prompts tailored to their interests and preferences. These prompts are intelligently generated using advanced AI technologies, making them ready-made for various creative endeavors.</p>
+              </div>
+              <div className=' mt-3 flex row flex-wrap gap-2'>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>NextJs</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Mongoose</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>NextAuth.js</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Google Cloud Platform</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>HTML</span>
+                <span className=' rounded-md py-0.5 px-1 border-2 border-gray-700'>Tailwind</span>
               </div>
 
             </div>
