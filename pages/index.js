@@ -32,7 +32,7 @@ export default function Home() {
             <h1 className=' text-xl font-burtons'>Code Crushed</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/> </li>
-              <li><a href="https://drive.google.com/file/d/1Cv94ub0zrqQDU7yQPCxJUCzIEw4NCZlh/view?usp=sharing" target="blank" download className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
+              <li><a href="https://drive.google.com/file/d/1E6TEuKnk-Yf4CbVyMiYadotK-LZJwlip/view?usp=sharing" target="blank" download className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
             </ul>
           </nav>
 
